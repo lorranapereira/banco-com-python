@@ -10,11 +10,11 @@ cur = con.cursor()
 
 #con.close() 
 #inserir
-#cur.execute("insert into alunos (aluno, id) values (%s,%s)",["guilherme gordao",3])
+#cur.execute("insert into alunos (aluno, id) values (%s,%s)",["guilherme",3])
 #con.commit()
 
 #alterar
-#cur.execute("update alunos set aluno = %s  where id = (%s)",["lorrana_lindona",3])
+#cur.execute("update alunos set aluno = %s  where id = (%s)",["lorrana",3])
 #con.commit()
 
 #deletar 
